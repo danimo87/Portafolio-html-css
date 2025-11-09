@@ -455,29 +455,39 @@ footer p {
   }
 
   .hero-content img {
-    width: 150px;         /* Ajusta el tamaño */
+    width: 150px;         
     height: 150px;
     object-fit: cover;
-    border-radius: 50%;   /* Mantiene forma circular */
+    border-radius: 50%;   
   }
     .project-card {
     display: flex;
-    flex-direction: column; /* 🔹 Apila imagen y texto */
-    align-items: center;    /* Centra el contenido */
+    flex-direction: column; 
+    align-items: center;    
     text-align: center;
-    gap: 1rem;              /* Espacio entre imagen y texto */
+    gap: 1rem;              
   }
 
   .project-card img {
-    width: 90%;             /* Ajusta al ancho del móvil */
-    max-width: 350px;       /* Evita que sea muy grande */
-    border-radius: 10px;    /* Mantiene bordes suaves */
-    object-fit: cover;      /* Evita deformaciones */
+    width: 90%;             
+    max-width: 350px;       
+    border-radius: 10px;    
+    object-fit: cover;     
   }
 
   .project-card p {
     text-align: justify;
     padding: 0 1rem;
+  }
+}
+@media (max-width: 430px) {
+  .project-card img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .project-card {
+    padding: 1rem;
   }
 }
 
