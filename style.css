@@ -424,26 +424,6 @@ section {
     margin-bottom: 0.5rem;
 }
 
-/* --- RESPONSIVE ADICIONAL --- */
-@media (max-width: 768px) {
-    .project-card {
-        flex-direction: column;
-        text-align: center;
-    }
-    .project-card img {
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
-    }
-    .contact-container {
-        gap: 2rem;
-    }
-    .contact-info {
-        text-align: center;
-    }
-}
-
-
 /* --- FOOTER --- */
 footer {
     background-color: var(--darker-bg);
@@ -458,8 +438,6 @@ footer p {
     font-size: 0.9rem;
     color: var(--gray-text);
 }
-
-
 /* --- RESPONSIVE DESIGN (Media Query) --- */
 @media (max-width: 430px) {
     header {
