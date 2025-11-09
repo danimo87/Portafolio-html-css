@@ -460,4 +460,24 @@ footer p {
     object-fit: cover;
     border-radius: 50%;   /* Mantiene forma circular */
   }
+    .project-card {
+    display: flex;
+    flex-direction: column; /* 🔹 Apila imagen y texto */
+    align-items: center;    /* Centra el contenido */
+    text-align: center;
+    gap: 1rem;              /* Espacio entre imagen y texto */
+  }
+
+  .project-card img {
+    width: 90%;             /* Ajusta al ancho del móvil */
+    max-width: 350px;       /* Evita que sea muy grande */
+    border-radius: 10px;    /* Mantiene bordes suaves */
+    object-fit: cover;      /* Evita deformaciones */
+  }
+
+  .project-card p {
+    text-align: justify;
+    padding: 0 1rem;
+  }
 }
+
