@@ -452,8 +452,6 @@ footer p {
 
   .hero-content {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .hero-content img {
